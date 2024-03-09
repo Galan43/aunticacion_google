@@ -79,7 +79,7 @@ Future<void> signInWithGoogle(BuildContext context) async {
           context,
           MaterialPageRoute(
               builder: (context) =>
-                  const HomePage()), // Reemplaza 'OtraPagina()' con la página a la que quieres dirigir al usuario
+                  const HomePage()), 
         );
       }
     } catch (e) {
